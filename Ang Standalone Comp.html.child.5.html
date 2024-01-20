@@ -1,0 +1,24 @@
+<p-card>
+  <form [formGroup]="${Name}Form">
+
+    <div class="p-fluid">
+      <label>Id</label>
+      <input pInputText [formControlName]="${Entity}Fields.Id">
+    </div>
+
+    <div class="p-fluid">
+      <label>Name</label>
+      <input pInputText [formControlName]="${Entity}Fields.Name">
+    </div>
+
+    <div class="mt-3 flex justify-content-end">
+      <p-button [disabled]="${Name}Form.invalid"
+                pRipple
+                (click)="save()"
+                type="submit">{{this.config.data?'Update':'Save'}}</p-button>
+    </div>
+
+
+  </form>
+</p-card>
+{{${Name}Form.value | json}}
