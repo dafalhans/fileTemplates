@@ -67,6 +67,27 @@ C:\Users\hansv\AppData\Roaming\JetBrains\IntelliJIdea2023.3\options\file.templat
       <template name="2024-Entity-Architecture-SpringBoot.java.child.3.java" file-name="Test_${NAME}_Application.java" reformat="true" live-template-enabled="false" />
       <template name="2024-Entity-Architecture-SpringBoot.java.child.4.java" file-name="service/service/${NAME}Service.java" reformat="true" live-template-enabled="false" />
       <template name="2024-Entity-Architecture-SpringBoot.java.child.5.java" file-name="service/mapper/impl/${NAME}Mapper.java" reformat="true" live-template-enabled="false" />
+      <template name="Ang Standalone Comp.md" file-name="/$NAME/${NAME}.component.README" reformat="true" live-template-enabled="false">
+        <template name="Ang Standalone Comp.md.child.0.html" file-name="/${NAME}/${NAME}.component" reformat="true" live-template-enabled="false" />
+        <template name="Ang Standalone Comp.md.child.1.css" file-name="/${NAME}/${NAME}.component" reformat="true" live-template-enabled="false" />
+        <template name="Ang Standalone Comp.md.child.2.css" file-name="/${NAME}/${NAME}-form/${NAME}-form.component" reformat="true" live-template-enabled="false" />
+        <template name="Ang Standalone Comp.md.child.3.html" file-name="/${NAME}/${NAME}-form/${NAME}-form.component" reformat="true" live-template-enabled="false" />
+        <template name="Ang Standalone Comp.md.child.4.ts" file-name="/${NAME}/${NAME}-form/${NAME}-form.component" reformat="true" live-template-enabled="false" />
+        <template name="Ang Standalone Comp.md.child.5.ts" file-name="/${NAME}/${NAME}.manager" reformat="true" live-template-enabled="false" />
+        <template name="Ang Standalone Comp.md.child.6.ts" file-name="/${NAME}/${NAME}.service" reformat="true" live-template-enabled="false" />
+        <template name="Ang Standalone Comp.md.child.7.ts" file-name="/${NAME}/${NAME}.model" reformat="true" live-template-enabled="false" />
+        <template name="Ang Standalone Comp.md.child.8.ts" file-name="/${NAME}/${NAME}.component" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="Ang Standalone Comp.md.child.0.html" file-name="/${NAME}/${NAME}.component" reformat="true" live-template-enabled="false" />
+      <template name="Ang Standalone Comp.md.child.1.css" file-name="/${NAME}/${NAME}.component" reformat="true" live-template-enabled="false" />
+      <template name="Ang Standalone Comp.md.child.2.css" file-name="/${NAME}/${NAME}-form/${NAME}-form.component" reformat="true" live-template-enabled="false" />
+      <template name="Ang Standalone Comp.md.child.3.html" file-name="/${NAME}/${NAME}-form/${NAME}-form.component" reformat="true" live-template-enabled="false" />
+      <template name="Ang Standalone Comp.md.child.4.ts" file-name="/${NAME}/${NAME}-form/${NAME}-form.component" reformat="true" live-template-enabled="false" />
+      <template name="Ang Standalone Comp.md.child.5.ts" file-name="/${NAME}/${NAME}.manager" reformat="true" live-template-enabled="false" />
+      <template name="Ang Standalone Comp.md.child.6.ts" file-name="/${NAME}/${NAME}.service" reformat="true" live-template-enabled="false" />
+      <template name="Ang Standalone Comp.md.child.7.ts" file-name="/${NAME}/${NAME}.model" reformat="true" live-template-enabled="false" />
+      <template name="Ang Standalone Comp.md.child.8.ts" file-name="/${NAME}/${NAME}.component" reformat="true" live-template-enabled="false" />
+      <template name="proxy.conf.json" file-name="proxy.conf.json" reformat="true" live-template-enabled="false" />
     </default_templates>
   </component>
 </application>
