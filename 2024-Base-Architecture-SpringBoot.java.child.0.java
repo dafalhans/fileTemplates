@@ -7,5 +7,7 @@ import java.time.LocalDate;
 public class Base {
 
     private String id;
-    private String creationDate;
+    private String name;
+    private LocalDateTime creationDate;
+    private LocalDateTime modificationDate;
 }

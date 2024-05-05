@@ -1,5 +1,5 @@
-#set( $Plural = "$${NAME}s" )
-#set( $Entity = "$${NAME}" )
+#set( $Plural = "${NAME}s" )
+#set( $Entity = "${NAME}" )
 
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";

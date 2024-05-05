@@ -1,5 +1,5 @@
-#set( $Plural = "$${NAME}s" )
-#set( $Entity = "$${NAME}" )
+#set( $Plural = "${NAME}s" )
+#set( $Entity = "${NAME}" )
 
 
 import {Component, OnInit} from '@angular/core';
