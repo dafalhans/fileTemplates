@@ -48,9 +48,9 @@ public class ${NAME}Resource {
     }
     
     @PutMapping("/$CamelCaseNamePlural")
-    public ResponseEntity<Player> update(@RequestBody Player dto) {
+    public ResponseEntity<${NAME}> update(@RequestBody ${NAME} dto) {
         logger.debug("Update ${NAME}: {}", dto);
-        Player updatedDto = service.update(dto);
+        ${NAME} updatedDto = service.update(dto);
         return ResponseEntity.ok(updatedDto);
     }
     

@@ -1,3 +1,6 @@
+#set( $Plural = "${NAME}s" )
+#set( $Entity = "${NAME}" )
+
 import {Component, OnInit} from '@angular/core';
 import {FormBuilder, FormControl, FormGroup, ReactiveFormsModule, Validators} from "@angular/forms";
 import {${Entity}Manager} from "../${Name}.manager";
